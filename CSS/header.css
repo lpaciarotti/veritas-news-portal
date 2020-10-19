@@ -1,0 +1,55 @@
+/* Styles for the header */
+
+header{
+    background-color: #ff6500;
+    color:#ffffff;
+}
+
+h1{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+
+#brand {
+    word-spacing: -10px;
+}
+
+.special-text{
+    background-color: #ffffff;
+    color:#ff6500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#date{
+    font-style: italic;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.sections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #030167;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: #ffffff 5px solid;
+}
+
+.sections li{
+    justify-content: space-between;
+    display: inline;
+    list-style: none;
+}
+
+.sections a{
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    color:#ffffff;
+}
+
