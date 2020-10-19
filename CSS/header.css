@@ -26,25 +26,28 @@ h1{
 #date{
     font-style: italic;
     margin-top: 0;
+    margin-bottom: 0;
     padding-top: 0;
+    padding-bottom: 0;
 }
 
 .sections{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #030167;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
     border-bottom: #ffffff 5px solid;
 }
-
+/*
 .sections li{
     justify-content: space-between;
     display: inline;
     list-style: none;
 }
+*/
 
 .sections a{
     flex-direction: row;
