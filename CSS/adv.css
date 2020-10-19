@@ -1,7 +1,14 @@
-#advertisements {
+/*#advertisements {
     flex:100%;
-}
+}*/
 
 #advertisements img{
-    width:50%;
+    width:100%;
+}
+
+@media(min-width:760px){
+    #advertisements{
+        flex:20%;
+        order:3;
+    }
 }

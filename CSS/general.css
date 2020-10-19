@@ -1,9 +1,6 @@
 /*General styles for the HTML */
 
 body {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     margin:0 20px 0 20px;
     background-color: #f8f5e1;
     font-family: Arial, Helvetica, sans-serif;
@@ -20,4 +17,17 @@ body {
     color:#ffffff;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media(min-width:760px){
+    .content{
+        flex-direction:row;
+        padding-top: 8px;
+    }
 }

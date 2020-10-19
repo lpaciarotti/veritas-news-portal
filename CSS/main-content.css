@@ -30,8 +30,10 @@
     color:#ff7400;
 }
 
-@media(max-width:760px){
+@media(min-width:760px){
     #main-content{
-        flex:40%;
+        flex:50%;
+        order:2;
+        margin: 0 10px 0 10px;
     }
 }
