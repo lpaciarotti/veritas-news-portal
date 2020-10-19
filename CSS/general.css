@@ -8,3 +8,15 @@ body {
     font-size: 15px;
     line-height: 1.5;
 }
+
+.area-title{
+    width:90px;
+    display:block;
+    margin:5px 0 0 0;
+    padding: 4px 6px 4px 6px;
+    background-color: #ff6500;
+    color:#ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
