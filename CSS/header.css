@@ -5,7 +5,14 @@ header{
     color:#ffffff;
 }
 
-
+header img{
+    display:flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding-top:20px 0 0 0;
+    margin: 0;
+    width:25px;
+}
 h1{
     padding-bottom: 0;
     margin-bottom: 0;
@@ -45,13 +52,6 @@ h1{
     font-size: 13px;
     border-bottom: #ffffff 5px solid;
 }
-/*
-.sections li{
-    justify-content: space-between;
-    display: inline;
-    list-style: none;
-}
-*/
 
 .sections a{
     flex-direction: row;
@@ -60,3 +60,6 @@ h1{
     color:#ffffff;
 }
 
+.sections span{
+    display:none;
+}
