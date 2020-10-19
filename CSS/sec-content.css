@@ -1,5 +1,4 @@
 #sec-content{
-    flex:100%;
     margin-bottom: 20px;
 }
 
@@ -26,4 +25,10 @@
 
 .sec-article a:hover{
     color:#ff7400;
+}
+
+@media(min-width:760px){
+    #sec-content{
+        flex:30%;
+    }
 }

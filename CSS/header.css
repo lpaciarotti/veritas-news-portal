@@ -63,3 +63,15 @@ h1{
 .sections span{
     display:none;
 }
+
+@media(min-width:760px){
+    header {
+        flex-wrap: nowrap;
+    }
+    header img{
+        display:none;
+    }
+    .sections span{
+        display:flex;
+    }
+}

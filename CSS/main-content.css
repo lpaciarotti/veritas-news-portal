@@ -1,5 +1,4 @@
 #main-content{
-    flex:100%;
     margin-bottom: 20px;
 }
 
@@ -29,4 +28,10 @@
 
 .article a:hover{
     color:#ff7400;
+}
+
+@media(max-width:760px){
+    #main-content{
+        flex:40%;
+    }
 }
