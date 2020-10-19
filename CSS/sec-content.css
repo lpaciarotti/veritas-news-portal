@@ -1,0 +1,29 @@
+#sec-content{
+    flex:100%;
+    margin-bottom: 20px;
+}
+
+.sec-article{
+    background-color:#cacabd;
+    padding-bottom: 5px;
+}
+
+.sec-article img{
+    display:none;
+}
+
+.sec-article h2{
+    font-size: 18px;
+    padding-left: 3px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.sec-article a{
+    padding:0px 3px 5px 3px;
+    font-weight: bold;
+}
+
+.sec-article a:hover{
+    color:#ff7400;
+}
