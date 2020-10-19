@@ -1,0 +1,12 @@
+footer{
+    flex:100%;
+    background-color: #ff6500;
+    color:#ffffff;
+    font-size: 12px;
+    padding: 3px 0 3px 7px;
+}
+
+#footer-brand{
+    font-weight: bold;
+}
+
