@@ -18,6 +18,12 @@ h1{
     font-weight: lighter;
     font-size: 50px;
 }
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 #brand {
     word-spacing: -10px;
 }
@@ -43,12 +49,7 @@ h1{
     font-weight: bold;
     font-size: 13px;
 }
-ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+
 .sections a{
     padding:0 14px 0 14px;
     text-decoration: none;

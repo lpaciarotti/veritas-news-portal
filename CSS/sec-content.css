@@ -3,8 +3,8 @@
 }
 
 .sec-article{
-    background-color:#cacabd;
     padding-bottom: 5px;
+    background-color:#cacabd;
 }
 
 .sec-article img{
@@ -13,10 +13,10 @@
 }
 
 .sec-article h2{
-    font-size: 18px;
     padding-left: 3px;
     padding-bottom: 0;
     margin-bottom: 0;
+    font-size: 18px;
 }
 
 .sec-article a{
