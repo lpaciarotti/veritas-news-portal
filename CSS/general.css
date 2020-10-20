@@ -25,7 +25,7 @@ body {
     flex-wrap: wrap;
 }
 
-@media(min-width:760px){
+@media(min-width:768px){
     .content{
         flex-direction:row;
         padding-top: 8px;

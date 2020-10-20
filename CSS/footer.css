@@ -1,9 +1,9 @@
 footer{
     flex:100%;
+    padding: 3px 0 3px 7px;
     background-color: #ff6500;
     color:#ffffff;
     font-size: 12px;
-    padding: 3px 0 3px 7px;
 }
 
 #footer-brand{

@@ -28,7 +28,7 @@
     color:#ff7400;
 }
 
-@media(min-width:760px){
+@media(min-width:768px){
     #sec-content{
         flex:28%;
         order:1;
