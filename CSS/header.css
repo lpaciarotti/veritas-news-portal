@@ -48,7 +48,7 @@ h1{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 13px;
-    border-bottom: #ffffff 5px solid;
+    border-bottom: #ffffff 10px solid;
 }
 
 ul {
@@ -67,6 +67,14 @@ ul {
 
 .sections li{
     display:none;
+}
+
+.current{
+    background-color: #ffffff;
+}
+
+.current a{
+    color:#ff6500;
 }
 
 @media(min-width:760px){
