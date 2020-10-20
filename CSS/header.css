@@ -44,8 +44,6 @@ h1{
 
 .sections{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     background-color: #030167;
     text-transform: uppercase;
     font-weight: bold;
@@ -53,14 +51,21 @@ h1{
     border-bottom: #ffffff 5px solid;
 }
 
-.sections a{
-    flex-direction: row;
-    justify-content: space-between;
-    text-decoration: none;
-    color:#ffffff;
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.sections span{
+.sections a{
+    padding:0 14px 0 14px;
+    text-decoration: none;
+    color:#ffffff;
+    text-align: center;
+}
+
+.sections li{
     display:none;
 }
 
@@ -71,7 +76,10 @@ h1{
     header img{
         display:none;
     }
-    .sections span{
-        display:flex;
+    .sections {
+        justify-content: center;
+    }
+    .sections li{
+        display: flex;
     }
 }
